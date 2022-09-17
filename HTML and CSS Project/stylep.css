@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: pink;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* header */
+.header{
+    
+    padding: 1em ;
+}
+
+.inner{
+    width: 80%; 
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; 
+    flex-shrink: 1;
+}
+
+.nav_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center; 
+}
+
+.nav_item{
+    margin-left: 1em;
+}
+
+ .nav_item + .nav_item{ 
+    margin-left:  1em;
+}
+
+.nav_link{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* First section */
+.Title{
+    width: 100%;
+    background: rgb(248, 110, 133);
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    padding: 3rem;
+    margin: 1rem;
+    
+}
+
+.first{
+    width: 40%;
+}
+
+.first_img{
+    width: 40%;
+    border: 1px solid black;
+}
+
+.text{
+    text-align: center;
+}
+
+/* Second section */
+.section2{
+    display: flex;
+    width: 90%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 3rem 20rem;
+}
+
+.box{
+  width: 20%;
+  min-height: 400px;
+  padding: 3rem;
+}
+
+.box2{
+    background: rgb(221, 70, 95);
+}
+
+.box1, .box3{
+    background: rgb(251, 110, 133);
+}
+
+.image{
+    border-radius: 45px;
+}
+
+/* footer */
+.footer{
+    background: rgb(251, 110, 133);
+    text-align: center;
+    padding: 25px;
+}
+
+h2.text2{   
+   border-top: 2px solid white;
+}
+
+.link{
+    border-bottom: 2px solid white;
+}
